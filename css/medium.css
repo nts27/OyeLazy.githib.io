@@ -1,0 +1,25 @@
+
+@media only screen and (min-width: 35rem) {
+    header ul li {
+        float: left;
+        width: 14%;
+    }
+    
+    header ul li:last-child {
+        width: 15%;
+        text-align: right;
+    }
+    
+    header ul li:last-child {
+        padding-left: 0% !important;
+    }
+    
+    main div#intro div{
+        width: 46%;
+        float: left;
+    }
+    
+    main div#services ul li {
+        width:19%;
+    }
+} // end media query

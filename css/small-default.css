@@ -1,0 +1,284 @@
+
+body {
+    font-family: Arial;
+}
+
+
+header ul {
+    color: white;
+    background: black;
+    overflow: hidden;
+}
+
+header ul li {
+    width: 100%;
+    padding: 5px;
+    padding-top: 15px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+header ul li a:hover {
+    color: lightgray;
+}
+
+header ul li:first-child {
+    width: 20%;
+}
+
+header ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding-top: 20px;
+}
+
+header ul li:last-child {
+    padding-left: 29%;
+}
+
+main div#intro {
+    background: black;
+    overflow: hidden;
+}
+
+main div#intro div{
+    width: 100%;
+}
+
+main div#intro div p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main div#intro div p button {
+    padding: 10px;
+    border-radius: 5px;
+    background: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+figure {
+    width: 100%;
+}
+figure img {
+    width: 100%;
+}
+
+main div:first-child div:first-child {
+    padding-top: 60px;
+    margin-left: 30px;
+}
+
+main div#services {
+    background: orange;
+    padding:25px;
+    overflow: hidden;
+}
+
+main div#services ul {
+    background: white;
+    overflow: hidden;
+}
+
+main div#services ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline-block;
+    width: 38%;
+    text-align: center;
+}
+
+main div#services figure.servicesImg {
+    width: 80%;
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#downloadAppImg {
+    width:10%;
+}
+
+div#service-details {
+    background: lightgray;
+    overflow: hidden;
+}
+
+div#service-details ul {
+    text-align: center;
+}
+
+div#service-details ul li{
+    list-style: none;
+    display: inline-block;
+    width: 38%;
+    padding: 15px;
+}
+
+div#service-details ul li figure {
+    box-shadow: 2px 2px 3px lightslategrey;
+}
+
+div#service-details ul li div {
+    box-shadow: 2px 2px 3px lightslategrey;
+}
+
+
+
+
+div#service-details ul li div.service-details-button {
+    margin-top: -3px;
+}
+
+div#service-details ul li div.service-details-button ul li{
+    list-style: none;
+    display: inline-block;
+    width: 45%;
+    padding: 2px;
+    box-shadow: none !important;
+}
+
+div#service-details ul li div.service-details-button ul li p {
+    font-size: 0.5rem;
+    text-align: left;
+}
+div#service-details ul li div.service-details-button ul li:nth-child(2){
+    text-align: right;
+}
+
+div#service-details ul li div.service-details-button ul li button {
+    background: white;
+    border: 1px solid black;
+    color: red;
+    border-radius: 3px;
+}
+
+div#service-details ul li div.service-details-button ul {
+    background: white;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+
+div#locate ul li {
+    list-style: none;
+    display: inline-block;
+    width: 40%;
+}
+
+div#locate ul li p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 20%;
+    padding-left: 50px;
+}
+
+div#get-the-app {
+    padding: 10%;
+    background-color: lightsteelblue;
+}
+
+div#get-the-app ul li {
+    list-style: none;
+    display: inline-block;
+    width: 36%;
+}
+
+div#get-the-app ul li:first-child {
+    padding-left: 50px;
+}
+
+div#get-the-app ul li:nth-child(2) {
+    vertical-align: top;
+}
+
+
+div#get-the-app ul li input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 94%;
+    height: 20px;
+    padding-right: 50px;
+    padding: 5px;
+}
+
+div#get-the-app ul li p {
+    padding: 5px;
+}
+
+div#get-the-app ul li input[type="submit"] {
+    margin-left: -55px;
+    height: 25px;
+    width: 50px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background: black;
+    -webkit-appearance: none;
+}
+
+footer {
+    background: black !important;
+    color:white;
+    overflow: hidden;
+    padding: 20px !important;
+}
+
+footer div:first-child ul li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr {
+    margin: 5px 0px 5px 0px !important;
+    color: darkgray;
+}
+
+footer div:nth-child(2) ul li {
+    list-style: none;
+    display: inline-block;
+    width: 48%;
+}
+
+footer div:nth-child(2) ul li:first-child {
+    vertical-align: top;
+} 
+
+footer div:nth-child(2) ul li:first-child p {
+    padding: 5px;
+}
+
+
+
+footer div:nth-child(2) ul li:first-child p:first-child {
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+footer div:nth-child(2) ul li:first-child ul li {
+    list-style: none;
+    display: inline-block;
+    width: 30%;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

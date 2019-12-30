@@ -1,0 +1,79 @@
+
+@media only screen and (min-width: 60rem) {
+    
+    header ul li {
+        float: left;
+        width: 14%;
+    }
+    
+    header ul li:last-child {
+        width: 15%;
+        text-align: right;
+    }
+    
+    header ul li:last-child {
+        padding-left: 0% !important;
+    }
+    
+    main div#intro div{
+        width: 46%;
+        float: left;
+    }
+    
+    main div#intro div:first-child {
+        padding-top: 150px;
+        margin-left: 60px;
+    }
+    
+    main div figure {
+        width: 100%;
+    }
+    
+    main div#intro div p {
+        color: white;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    
+    main div#services ul li {
+        width: 13%;
+    }
+    
+    main div#services figure.servicesImg {
+        width: 50%;
+    }
+    
+    #downloadAppImg {
+        width:30%;
+    }
+    
+    div#service-details ul li {
+        width: 20%;
+    }
+    
+    div#locate ul li p {
+        font-size: 3rem;
+        padding-top: 40%;
+        padding-left: 50px;
+    }
+    
+    div#get-the-app ul li p:first-child {
+        font-size: 2rem;
+    }
+    
+    div#get-the-app ul li p:nth-child(2) {
+        font-size: 1rem;
+    }
+    
+    footer div:first-child ul li {
+        font-size: 1rem;
+    }
+    
+    footer div:nth-child(2) ul li:first-child p:first-child{
+        font-size: 1rem;
+    
+    } 
+    
+
+    
+} // end media query
